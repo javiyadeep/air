@@ -66,7 +66,7 @@ File: scss
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-bg-rgb: 4, 13, 62;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -75,7 +75,7 @@ File: scss
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.375;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff; }
+  --bs-body-bg: #040D3E; }
 
 *,
 *::before,
@@ -502,7 +502,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #040D3E;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1552,7 +1552,7 @@ progress {
   font-weight: 400;
   line-height: 1.375;
   color: #212529;
-  background-color: #fff;
+  background-color: #040D3E;
   background-clip: padding-box;
   border: 2px solid #ced4da;
   appearance: none;
@@ -1567,7 +1567,7 @@ progress {
       cursor: pointer; }
   .form-control:focus {
     color: #212529;
-    background-color: #fff;
+    background-color: #040D3E;
     border-color: #ccf7e8;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(153, 239, 208, 0.25); }
@@ -1689,7 +1689,7 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.375;
   color: #212529;
-  background-color: #fff;
+  background-color: #040D3E;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
@@ -1742,7 +1742,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0.1875em;
   vertical-align: top;
-  background-color: #fff;
+  background-color: #040D3E;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1820,9 +1820,9 @@ textarea.form-control-lg {
   .form-range:focus {
     outline: 0; }
     .form-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(153, 239, 208, 0.25); }
+      box-shadow: 0 0 0 1px #040D3E, 0 0 0 0.25rem rgba(153, 239, 208, 0.25); }
     .form-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(153, 239, 208, 0.25); }
+      box-shadow: 0 0 0 1px #040D3E, 0 0 0 0.25rem rgba(153, 239, 208, 0.25); }
   .form-range::-moz-focus-outer {
     border: 0; }
   .form-range::-webkit-slider-thumb {
@@ -2973,8 +2973,8 @@ textarea.form-control-lg {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #495057;
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff; }
+    background-color: #040D3E;
+    border-color: #dee2e6 #dee2e6 #040D3E; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;
@@ -3462,6 +3462,9 @@ textarea.form-control-lg {
   margin-bottom: -15px;
   margin-left: -15px;
   border-bottom: 0; }
+  .card-header-tabs .nav-link.active {
+    background-color: #fff;
+    border-bottom-color: #fff; }
 
 .card-header-pills {
   margin-right: -15px;
@@ -3532,7 +3535,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #040D3E;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -3572,7 +3575,7 @@ textarea.form-control-lg {
   margin-bottom: 0; }
 
 .accordion-item {
-  background-color: #fff;
+  background-color: #040D3E;
   border: 1px solid rgba(0, 0, 0, 0.125); }
   .accordion-item:first-of-type {
     border-top-left-radius: 0.25rem;
@@ -7918,4 +7921,20 @@ ul {
   opacity: 0.1; }
 
 .page-wrapper {
-  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%); }
+  background: linear-gradient(180deg, #3B1D60 1.22%, #040D3E 100%); }
+
+.business {
+  background: url("../../dist/images/patten.svg") no-repeat left center;
+  background-size: 350px; }
+  @media (max-width: 991.98px) {
+    .business {
+      background: url("../../dist/images/patten.svg") no-repeat left top;
+      background-size: 300px; } }
+  @media (max-width: 767.98px) {
+    .business {
+      background-size: 250px; } }
+
+.project {
+  background: url("../../dist/images/project.svg") no-repeat center bottom; }
+  .project .next-project {
+    margin-bottom: 300px; }
