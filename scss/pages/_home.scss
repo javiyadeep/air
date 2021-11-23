@@ -23,3 +23,21 @@
     margin-bottom: 300px;
   }
 }
+
+.map {
+  background: url('../../dist/images/map.svg') no-repeat right center;
+}
+
+.info {
+  background: url('../../dist/images/patten-1.svg') no-repeat right center;
+  background-size: 350px;
+
+  @include media-breakpoint-down(lg) {
+    background: url('../../dist/images/patten-1.svg') no-repeat right bottom;
+    background-size: 300px;
+  }
+
+  @include media-breakpoint-down(md) {
+    background-size: 250px;
+  }
+}
