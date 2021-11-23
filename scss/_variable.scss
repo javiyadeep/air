@@ -90,10 +90,10 @@ $headings-color: $primary !default;
 
 
 // Button
-$btn-padding-y: 10px !default;
-$btn-padding-x: 17px !default;
-$btn-border-radius: 5px !default;
-$btn-font-weight: 500;
+$btn-padding-y: 13px !default;
+$btn-padding-x: 30px !default;
+$btn-border-radius: 3px !default;
+$btn-font-weight: $font-weight-bold;
 $btn-font-size: 16px;
 $btn-transition: all 0.4s ease-in-out;
 

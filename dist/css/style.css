@@ -2134,7 +2134,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.375;
   color: #212529;
   text-align: center;
@@ -2144,9 +2144,9 @@ textarea.form-control-lg {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 10px 17px;
+  padding: 13px 30px;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: all 0.4s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .btn {
@@ -2896,8 +2896,8 @@ textarea.form-control-lg {
   border-bottom-left-radius: 0; }
 
 .dropdown-toggle-split {
-  padding-right: 12.75px;
-  padding-left: 12.75px; }
+  padding-right: 22.5px;
+  padding-left: 22.5px; }
   .dropdown-toggle-split::after,
   .dropup .dropdown-toggle-split::after,
   .dropend .dropdown-toggle-split::after {
@@ -3061,7 +3061,7 @@ textarea.form-control-lg {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .navbar-toggler {
@@ -7859,7 +7859,7 @@ header .nav-link {
 
 header .active {
   color: #F2994A !important;
-  font-weight: 500; }
+  font-weight: 700; }
 
 * {
   margin: 0;
@@ -7891,6 +7891,13 @@ ul {
 
 .card {
   margin-bottom: 30px; }
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.btn-outline-warning:hover {
+  color: #fff; }
 
 .hover-effect {
   transition: all 0.4s ease-in-out; }

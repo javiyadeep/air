@@ -38,6 +38,17 @@ ul {
   margin-bottom: 30px;
 }
 
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-outline-warning {
+  &:hover {
+    color: $white;
+  }
+}
+
 .hover-effect {
   transition: all 0.4s ease-in-out;
 }
