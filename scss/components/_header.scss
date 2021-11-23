@@ -1,5 +1,14 @@
 header {
-    .nav-link {
-        padding: 20px;
-    }
+  .nav-item {
+    padding: 0 8px;
+  }
+
+  .nav-link {
+    padding: 20px 0;
+  }
+
+  .active {
+      color: $warning !important;
+      font-weight: $font-weight-normal;
+  }
 }

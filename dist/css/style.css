@@ -5857,7 +5857,7 @@ textarea.form-control-lg {
   font-weight: 400 !important; }
 
 .fw-lighter {
-  font-weight: lighter !important; }
+  font-weight: 300 !important; }
 
 .fw-normal {
   font-weight: 500 !important; }
@@ -7851,8 +7851,15 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+header .nav-item {
+  padding: 0 8px; }
+
 header .nav-link {
-  padding: 20px; }
+  padding: 20px 0; }
+
+header .active {
+  color: #F2994A !important;
+  font-weight: 500; }
 
 * {
   margin: 0;
@@ -7902,3 +7909,6 @@ ul {
 
 .op-1 {
   opacity: 0.1; }
+
+.page-wrapper {
+  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%); }
