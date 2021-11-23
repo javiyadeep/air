@@ -1,0 +1,102 @@
+/*
+Template Name: Landing Pro
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+// Variables - here you can change this global values of the UI Kit
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+$font-family-dm-sans: 'DM Sans',
+sans-serif;
+
+
+$themecolor-dark: #102c46;
+$inverse: #2e4b66 !default;
+$dark: #102d47 !default;
+$muted: #668199 !default;
+$light: #f0f6fa !default;
+$light-info: #f3f9fd;
+$light-inverse: #dfebfc;
+$light-gray: #e2e8f3;
+$primary: #2f73f2 !default;
+$secondary: #ff3c78 !default;
+$success: #3cd278 !default;
+$warning: #f9c78f !default;
+
+
+/*font-sizes*/
+$font-sizes: (1: 10px,
+  2: 12px,
+  3: 14px,
+  4: 16px,
+  5: 18px,
+  6: 20px,
+  7: 24px,
+  8: 30px,
+  9: 36px,
+  10: 40px,
+  11: 45px,
+  12: 48px,
+) !default;
+$font-size-base: 1rem !default;
+
+// Line-height
+$font-weight-lighter: lighter !default;
+$font-weight-light: 400 !default;
+$font-weight-normal: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+
+$font-weight-base: $font-weight-light !default;
+
+// Line-height
+$line-height-base: 1.5 !default; // 24px
+$line-height-sm: 1 !default; // 16px
+$line-height-lg: 1.875 !default; // 27px
+
+// Body Custom settings
+$text-muted: $muted !default;
+
+// Container Custom settings
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+) !default;
+
+// Row
+$grid-gutter-width: 1.875rem !default;
+
+// Heading Custom settings
+// $headings-color: $dark !default;
+$headings-font-weight: bold !default;
+$headings-color: $dark !default;
+
+// Button Custom settings
+$btn-padding-y: 10px !default;
+$btn-padding-x: 17px !default;
+$btn-border-radius: 5px !default;
+$btn-font-weight: 500;
+$btn-font-size: 16px;
+$btn-transition: all 0.4s ease-in-out;
+
+// Navpill Custom settings
+$nav-pills-border-radius: 0 !default;
+
+// common
+$box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06) !default;
+
+// card
+$card-border-radius: 0 !default;
+$card-border-width: 0 !default;
+$card-spacer-y: 30px !default;
+$card-spacer-x: 30px !default;
+
+// Input
+$input-border-radius: 0;
+$input-border-width: 2px;
+
+// Form
+$form-check-label-cursor: pointer;
