@@ -1,9 +1,19 @@
+// ======================================
+// @&@&@&@&@&@&@&@&@&@@&@&@&@&@&@&@&@&@&@
+// ======================================
 /*
-Template Name: Landing Pro
-Author: wrappixel
-Email: niravjoshi87@gmail.com
+
+Template Name: Air
+Author: Deep Javiya
+Email: patelaleis@gmail.com
 File: scss
+
 */
+// ======================================
+// @&@&@&@&@&@&@&@&@&@@&@&@&@&@&@&@&@&@&@
+// ======================================
+
+
 
 // Variables - here you can change this global values of the UI Kit
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
@@ -11,19 +21,19 @@ File: scss
 $font-family-dm-sans: 'DM Sans',
 sans-serif;
 
+$primary: #99EFD0 !default;
+$muted: #8476AA !default;
+$warning: #F2994A !default;
+$secondary: #6D6D78 !default;
 
 $themecolor-dark: #102c46;
 $inverse: #2e4b66 !default;
 $dark: #102d47 !default;
-$muted: #668199 !default;
 $light: #f0f6fa !default;
 $light-info: #f3f9fd;
 $light-inverse: #dfebfc;
 $light-gray: #e2e8f3;
-$primary: #2f73f2 !default;
-$secondary: #ff3c78 !default;
 $success: #3cd278 !default;
-$warning: #f9c78f !default;
 
 
 /*font-sizes*/
@@ -51,13 +61,16 @@ $font-weight-bolder: bolder !default;
 
 $font-weight-base: $font-weight-light !default;
 
+
 // Line-height
-$line-height-base: 1.5 !default; // 24px
+$line-height-base: 1.375 !default; // 22px
 $line-height-sm: 1 !default; // 16px
 $line-height-lg: 1.875 !default; // 27px
 
+
 // Body Custom settings
 $text-muted: $muted !default;
+
 
 // Container Custom settings
 $container-max-widths: (sm: 540px,
@@ -66,15 +79,17 @@ $container-max-widths: (sm: 540px,
   xl: 1140px,
 ) !default;
 
+
 // Row
 $grid-gutter-width: 1.875rem !default;
 
-// Heading Custom settings
-// $headings-color: $dark !default;
-$headings-font-weight: bold !default;
-$headings-color: $dark !default;
 
-// Button Custom settings
+// Heading
+$headings-font-weight: bold !default;
+$headings-color: $primary !default;
+
+
+// Button
 $btn-padding-y: 10px !default;
 $btn-padding-x: 17px !default;
 $btn-border-radius: 5px !default;
@@ -82,11 +97,10 @@ $btn-font-weight: 500;
 $btn-font-size: 16px;
 $btn-transition: all 0.4s ease-in-out;
 
-// Navpill Custom settings
-$nav-pills-border-radius: 0 !default;
 
 // common
 $box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06) !default;
+
 
 // card
 $card-border-radius: 0 !default;
@@ -94,9 +108,11 @@ $card-border-width: 0 !default;
 $card-spacer-y: 30px !default;
 $card-spacer-x: 30px !default;
 
+
 // Input
 $input-border-radius: 0;
 $input-border-width: 2px;
+
 
 // Form
 $form-check-label-cursor: pointer;
