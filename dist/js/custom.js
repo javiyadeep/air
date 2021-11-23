@@ -1,0 +1,17 @@
+$(".testi").owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: false,
+  dots: true,
+  autoplay: true,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: false,
+    },
+    1170: {
+      items: 5,
+    },
+  },
+});
