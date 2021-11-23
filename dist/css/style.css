@@ -7851,6 +7851,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+header .nav-link {
+  padding: 20px; }
+
 * {
   margin: 0;
   padding: 0;
