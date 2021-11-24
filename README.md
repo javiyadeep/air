@@ -2,7 +2,7 @@
 
 |✦| Why this project: I did this front-end-only project to put my theoretical knowledge into practice and improve my front-end web development skills.
 
-|✦| Live demo: https://daminisherathiya.github.io/ludo/
+|✦| Live demo: https://javiyadeep.github.io/air/
 
 |✦| Technologies used: HTML, CSS, JavaScript
 
