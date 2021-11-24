@@ -1,12 +1,7 @@
-# ludo
-
-|✦| Why this project: I did this front-end-only project to put my theoretical knowledge into practice and improve my front-end web development skills.
+# Air
 
 |✦| Live demo: https://javiyadeep.github.io/air/
 
-|✦| Technologies used: HTML, CSS, JavaScript
-
-|✦| GitHub repository: https://github.com/daminisherathiya/ludo
-
+|✦| GitHub repository: https://github.com/javiyadeep/air
 
 <a href="https://ibb.co/RQ5FsTH"><img src="https://i.ibb.co/QY5gTvm/Air.png" alt="Air" width="100%" border="0"></a>
