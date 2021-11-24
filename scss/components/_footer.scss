@@ -1,0 +1,28 @@
+footer {
+  background: url('../../dist/images/footer.svg') no-repeat;
+  background-size: cover;
+
+  .social-link {
+    width: 36px;
+    line-height: 36px;
+  }
+
+  .footer-link {
+    color: $white;
+    transition: all 0.4s ease-in-out;
+    margin-left: 0;
+
+    &:hover {
+      margin-left: 8px;
+      color: $warning;
+      opacity: 1;
+    }
+
+    @include media-breakpoint-down(sm) {
+      &:hover {
+        margin-left: 0px;
+        font-size: 18px;
+      }
+    }
+  }
+}
